@@ -1,14 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "fXtInws31OI=",
+  "dgSpecHash": "J28bkc1dZtk=",
   "success": true,
   "projectFilePath": "/home/vihanga/Workspace/sandbox/loss-and-found/gateway/gateway.csproj",
   "expectedPackageFiles": [
+    "/home/vihanga/.nuget/packages/google.protobuf/3.33.0/google.protobuf.3.33.0.nupkg.sha512",
     "/home/vihanga/.nuget/packages/grpc.core.api/2.76.0/grpc.core.api.2.76.0.nupkg.sha512",
     "/home/vihanga/.nuget/packages/grpc.net.client/2.76.0/grpc.net.client.2.76.0.nupkg.sha512",
     "/home/vihanga/.nuget/packages/grpc.net.common/2.76.0/grpc.net.common.2.76.0.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/grpc.tools/2.76.0/grpc.tools.2.76.0.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/10.0.3/microsoft.aspnetcore.authentication.jwtbearer.10.0.3.nupkg.sha512",
     "/home/vihanga/.nuget/packages/microsoft.aspnetcore.openapi/10.0.3/microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
-    "/home/vihanga/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+    "/home/vihanga/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.identitymodel.abstractions/8.0.1/microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.0.1/microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.identitymodel.logging/8.0.1/microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.identitymodel.tokens/8.0.1/microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/microsoft.openapi/2.3.0/microsoft.openapi.2.3.0.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/swashbuckle.aspnetcore/10.0.1/swashbuckle.aspnetcore.10.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/swashbuckle.aspnetcore.swagger/10.0.1/swashbuckle.aspnetcore.swagger.10.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.0.1/swashbuckle.aspnetcore.swaggergen.10.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.0.1/swashbuckle.aspnetcore.swaggerui.10.0.1.nupkg.sha512",
+    "/home/vihanga/.nuget/packages/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }
