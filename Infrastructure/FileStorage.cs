@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+
 namespace gateway.Infrastructure;
 
 public sealed class FileStorage
@@ -28,10 +30,20 @@ public sealed class FileStorage
             }
 
             var extension = Path.GetExtension(file.FileName);
-            var safeName = $"{Guid.NewGuid():N}{extension}";
+            await using var input = file.OpenReadStream();
+            using var memory = new MemoryStream();
+            await input.CopyToAsync(memory, cancellationToken);
+
+            var bytes = memory.ToArray();
+            var hash = Convert.ToHexString(SHA256.HashData(bytes)).ToLowerInvariant();
+            var safeName = $"{hash}{extension}";
             var destination = Path.Combine(uploadRoot, safeName);
-            await using var stream = File.Create(destination);
-            await file.CopyToAsync(stream, cancellationToken);
+
+            if (!File.Exists(destination))
+            {
+                await File.WriteAllBytesAsync(destination, bytes, cancellationToken);
+            }
+
             saved.Add($"uploads/items/{safeName}");
         }
 
